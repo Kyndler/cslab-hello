@@ -1,4 +1,3 @@
-# .pre-commit-config.yaml
 repos:
   - repo: https://github.com/gitleaks/gitleaks
     rev: v8.28.0
@@ -6,5 +5,5 @@ repos:
       - id: gitleaks
         name: gitleaks (staged only)
         entry: gitleaks protect
-        args: ["--staged", "--redact", "--verbose"]
+        args: ["--staged", "--verbose", "--redact"]
         pass_filenames: false
