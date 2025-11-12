@@ -2,7 +2,7 @@ name: Simple Hello World
 
 on:
   push:
-    branches: [ master ]  # use main if your default branch is main
+    branches: [ main ]  # use main if your default branch is main
 
 jobs:
   hello-job:
